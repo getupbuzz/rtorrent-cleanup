@@ -1,5 +1,10 @@
 # rtorrent-cleanup
 
+## Changes
+
+1. Added `--session_replace` argument, which can replace the torrent path in the session file. It can be used to support docker volume mapping
+---
+
 This script is used to automatically delete files that are not visible in rtorrent anymore, but still present in the download directory.
 
 # Usage
